@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Cleanup Fun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        h1 { color: #333; }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #result { margin-top: 20px; font-size: 18px; }
+        .removed { color: red; }
+        .kept { color: black; }
+    </style>
+</head>
+<body>
+    <h1>Let's Clean Your String!</h1>
+    <p>Click the button, enter your text, and choose letters to remove.</p>
+    <button id="runButton">Clean it!</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
